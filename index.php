@@ -11,13 +11,8 @@
 </header>
 <section>
 <?php
-
 $fecha_actual = date("d/m/Y H:i:s");
 echo "<p>La fecha y la hora actual: $fecha_actual</p>";
-
-// Si estás intentando incluir un archivo PHP, asegúrate de que la ruta sea correcta y que no haya errores de sintaxis.
-require __DIR__ . '/../public/index.php';
-
 ?>
 </section> 
 <footer>
